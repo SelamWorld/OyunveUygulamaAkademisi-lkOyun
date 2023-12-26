@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 4021447184350851862}
   - component: {fileID: 4021447184350851861}
   - component: {fileID: 4021447184350851858}
-  - component: {fileID: 7560454779129018685}
   - component: {fileID: 1924131621902499641}
   - component: {fileID: 3825522560830490970}
   m_Layer: 0
@@ -163,18 +162,6 @@ MonoBehaviour:
   JumpForce: 5
   Speed: 3.5
   Cam: {fileID: 0}
---- !u!114 &7560454779129018685
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4021447184350851866}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d13f50b762018b4bae8c4542266dcec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &1924131621902499641
 AudioSource:
   m_ObjectHideFlags: 0

@@ -997,6 +997,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3825522560830490970, guid: 161468796b12353429bcd87c25ca6d86, type: 3}
+      propertyPath: ScoreCanvas
+      value: 
+      objectReference: {fileID: 1466105328}
+    - target: {fileID: 3825522560830490970, guid: 161468796b12353429bcd87c25ca6d86, type: 3}
+      propertyPath: LivesScoreCanvas
+      value: 
+      objectReference: {fileID: 1466105327}
     - target: {fileID: 4021447184350851858, guid: 161468796b12353429bcd87c25ca6d86, type: 3}
       propertyPath: Cam
       value: 
@@ -1079,6 +1087,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 161468796b12353429bcd87c25ca6d86, type: 3}
+--- !u!223 &1466105327 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 8846999204560071623, guid: 161468796b12353429bcd87c25ca6d86, type: 3}
+  m_PrefabInstance: {fileID: 1466105326}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1466105328 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3150140350544569497, guid: 161468796b12353429bcd87c25ca6d86, type: 3}
+  m_PrefabInstance: {fileID: 1466105326}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1918003312
 GameObject:
   m_ObjectHideFlags: 0

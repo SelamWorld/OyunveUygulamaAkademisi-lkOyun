@@ -8,7 +8,12 @@ public class GetDamage : MonoBehaviour
     Scene thisScene;
     private void Awake()
     {
-        thisScene=SceneManager.GetActiveScene();
+        thisScene=SceneManager.GetActiveScene();           // cache
+       
+    }
+
+    private void Start()
+    {
         
     }
     private void OnCollisionEnter2D(Collision2D collision)
@@ -17,7 +22,8 @@ public class GetDamage : MonoBehaviour
         if (collision.rigidbody.CompareTag("player"))             // oyuncuya deðerse   
         {                                                         
             SceneManager.LoadScene(thisScene.name);               // sahneyi baþtan yükle 
-            print("q");
+            Points.Lives--;     // caný bir azalt
+            print(Points.Lives);
         }
         
     }

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -8,7 +9,7 @@ public class nextLevel : MonoBehaviour
     Scene thisScene;
     private void Awake()
     {
-        thisScene = SceneManager.GetActiveScene();
+       thisScene = SceneManager.GetActiveScene();     // oynadýðýmýz sahneyi cache et
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -26,13 +27,11 @@ public class nextLevel : MonoBehaviour
             else if (thisScene.name == "Scene3")
             {
                 SceneManager.LoadScene("Finish");
-            }
-            
-
+            }      
         }
     }
 
-    public void startG()
+    public void startG()            // start butonu
     {
         SceneManager.LoadScene("Scene1");
     }

@@ -424,7 +424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScoreCanvas: {fileID: 3150140350544569497}
-  LivesScoreCanvas: {fileID: 8846999204560071623}
+  LivesCanvas: {fileID: 8846999204560071623}
 --- !u!1 &6178565539153465789
 GameObject:
   m_ObjectHideFlags: 0

@@ -35,4 +35,10 @@ public class nextLevel : MonoBehaviour
     {
         SceneManager.LoadScene("Scene1");
     }
+
+    public void startH()
+    {
+        SceneManager.LoadScene("UI");
+        Points.Lives = 3;
+    }
 }

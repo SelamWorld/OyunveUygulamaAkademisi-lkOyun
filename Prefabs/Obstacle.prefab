@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2048691818755830690}
   - component: {fileID: 5941687990396272086}
   - component: {fileID: -2196920786012139305}
+  - component: {fileID: 6270498939579132443}
   m_Layer: 0
   m_Name: Obstacle
   m_TagString: Obstacle
@@ -102,7 +103,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.41847324
+  m_Radius: 0.49373344
 --- !u!114 &-2196920786012139305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,6 +117,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 4021447184350851866, guid: 161468796b12353429bcd87c25ca6d86, type: 3}
+--- !u!95 &6270498939579132443
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2623739629940004786}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 74ec9d4cee0c71b49a740efe5864b15a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5591754377517413218
 GameObject:
   m_ObjectHideFlags: 0

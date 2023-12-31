@@ -12,10 +12,6 @@ public class GetDamage : MonoBehaviour
         thisScene=SceneManager.GetActiveScene();           // cache
     }
 
-    private void Start()
-    {
-        
-    }
     private void OnCollisionEnter2D(Collision2D collision)
     {                                                           
         if (collision.rigidbody.CompareTag("player"))             // oyuncuya deðerse   

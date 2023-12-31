@@ -17,15 +17,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2242879565829636685, guid: 1c49bfd99fbaf1e44a2924c1cd30a641, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 17.25
+      value: 7.54
       objectReference: {fileID: 0}
     - target: {fileID: 2242879565829636685, guid: 1c49bfd99fbaf1e44a2924c1cd30a641, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.04
+      value: -2.22
       objectReference: {fileID: 0}
     - target: {fileID: 2242879565829636685, guid: 1c49bfd99fbaf1e44a2924c1cd30a641, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.57
+      value: -0.24
       objectReference: {fileID: 0}
     - target: {fileID: 2242879565829636685, guid: 1c49bfd99fbaf1e44a2924c1cd30a641, type: 3}
       propertyPath: m_LocalRotation.w
@@ -53,11 +53,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2242879565829636685, guid: 1c49bfd99fbaf1e44a2924c1cd30a641, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -360
       objectReference: {fileID: 0}
     - target: {fileID: 2623739629940004786, guid: 1c49bfd99fbaf1e44a2924c1cd30a641, type: 3}
       propertyPath: m_Name
-      value: Obstacle (1)
+      value: ObstacleRed
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c49bfd99fbaf1e44a2924c1cd30a641, type: 3}
+--- !u!1 &750451236947661899 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2623739629940004786, guid: 1c49bfd99fbaf1e44a2924c1cd30a641, type: 3}
+  m_PrefabInstance: {fileID: 3315570881143817209}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &733002736
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750451236947661899}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 74ec9d4cee0c71b49a740efe5864b15a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

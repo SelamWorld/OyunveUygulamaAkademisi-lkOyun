@@ -5,8 +5,6 @@ using TMPro;
 
 public class GicvScore : MonoBehaviour
 {
-    public TextMeshProUGUI tscoreText;
-
     private void Awake()
     {
         gameObject.GetComponent<TextMeshProUGUI>().text= ("Your Score: " + (Points.Score).ToString());

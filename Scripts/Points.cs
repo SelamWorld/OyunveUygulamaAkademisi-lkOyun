@@ -8,9 +8,9 @@ using UnityEngine.SceneManagement;
 public class Points : MonoBehaviour
 {
     public static int Score=0;
-    public static int Lives=3;
-    AudioSource audioS;
-    public TextMeshProUGUI ScoreCanvas;    //Text put n editor
+    public static int Lives=3;             // can sayýsý
+    AudioSource audioS;                    // para toplama sesi
+    public TextMeshProUGUI ScoreCanvas;    // Text put n editor
     public Canvas LivesCanvas;             // canvas put in editor
 
     private void Awake()

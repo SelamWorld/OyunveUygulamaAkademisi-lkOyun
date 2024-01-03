@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2048691818755830690}
   - component: {fileID: 5941687990396272086}
   - component: {fileID: -2196920786012139305}
-  - component: {fileID: 6270498939579132443}
+  - component: {fileID: 1579508960454206193}
   m_Layer: 0
   m_Name: Obstacle
   m_TagString: Obstacle
@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 4021447184350851866, guid: 161468796b12353429bcd87c25ca6d86, type: 3}
---- !u!95 &6270498939579132443
+--- !u!95 &1579508960454206193
 Animator:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -127,7 +127,7 @@ Animator:
   m_GameObject: {fileID: 2623739629940004786}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 74ec9d4cee0c71b49a740efe5864b15a, type: 2}
+  m_Controller: {fileID: 9100000, guid: 3487c1239161d48418716d1be9549ebb, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
